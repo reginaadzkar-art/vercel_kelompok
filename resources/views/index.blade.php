@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata 5 Orang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Daftar Biodata</h1>
+
+  <div class="container">
+    <div class="card" onclick="location.href='/regina'">
+      <img src="1.jpg" alt="Regina">
+      <div class="name">Regina Afriliani </div>
+    </div>
+
+    <div class="card" onclick="location.href='shela.html'">
+      <img src="2.jpeg" alt="Shela">
+      <div class="name">Shela Pitriani </div>
+    </div>
+
+    <div class="card" onclick="location.href='raka.html'">
+      <img src="raka.jpeg" alt="Raka">
+      <div class="name">Raka Nurdiana</div>
+    </div>
+
+    <div class="card" onclick="location.href='ibnu.html'">
+      <img src="ibnu.jpeg" alt="Ibnu">
+      <div class="name">Ibnu Farel Hermawan</div>
+    </div>
+
+    <div class="card" onclick="location.href='arsy.html'">
+      <img src="5.jpeg" alt="Arsy">
+      <div class="name">Muhammad Arsy Zulfa Nur Safiq</div>
+    </div>
+  </div>
+</body>
+</html>
